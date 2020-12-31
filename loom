@@ -102,7 +102,7 @@ buildJar() {
         tools/scripts/buildJar.sh || exit 1
 
         echo ""
-        echo "Build Jar! (loom-$mcVersion.jar)"
+        echo "Built Jar! (loom-$mcVersion.jar)"
         echo ""
     ) || failed=1
 }
